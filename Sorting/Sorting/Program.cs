@@ -10,13 +10,13 @@ namespace Sorting
         {
             int[] a = { 123, 543, 654, 34, 645, 75, 234, 98, 23, 1, 5658, 980, 56, 231, 6, 35, 8, 923, 68, 34 } ;
             
-            int[] c = InsertionSort.Sort(a, true);
-            Console.WriteLine("Insertion sort, count: " + InsertionSort.counter);
+            int[] c = MergeSort.Sort(a);
+            Console.WriteLine("Merge sort, count: " + MergeSort.number);
             foreach (int i in c)
             {
                 Console.Write(i + "  ");
             }
-            c = SelectionSort.Sort(a, true);
+          /*  c = SelectionSort.Sort(a, true);
             Console.WriteLine();
             Console.WriteLine("Selection sort, count: " + SelectionSort.counter);
             Console.WriteLine();
@@ -30,7 +30,7 @@ namespace Sorting
             foreach (int i in c)
             {
                 Console.Write(i + "  ");
-            }
+            } */
             Console.ReadKey();
         }
     }
