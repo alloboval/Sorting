@@ -1,0 +1,5 @@
+C:\Work\Projects C#\Sorting\Sorting\Sorting\bin\Release\Sorting.exe.config
+C:\Work\Projects C#\Sorting\Sorting\Sorting\bin\Release\Sorting.exe
+C:\Work\Projects C#\Sorting\Sorting\Sorting\bin\Release\Sorting.pdb
+C:\Work\Projects C#\Sorting\Sorting\Sorting\obj\Release\Sorting.exe
+C:\Work\Projects C#\Sorting\Sorting\Sorting\obj\Release\Sorting.pdb
