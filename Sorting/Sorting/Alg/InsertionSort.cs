@@ -9,7 +9,6 @@
             if (flag)
             {
                 for (int i = 1; i < values.Length; i++)
-                {
                     for (int j = i; j > 0 && values[j - 1] > values[j]; j--)
                     {
                         counter++;
@@ -17,19 +16,16 @@
                         values[j - 1] = values[j];
                         values[j] = buff;
                     }
-                }
             }
             else
             {
                 for (int i = 1; i < values.Length; i++)
-                {
                     for (int j = i; j > 0 && values[j - 1] < values[j]; j--)
                     {
                         int buff = values[j - 1];
                         values[j - 1] = values[j];
                         values[j] = buff;
                     }
-                }
             }
             return values;
         }
