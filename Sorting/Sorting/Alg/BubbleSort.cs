@@ -9,9 +9,7 @@
             int buf;
             int min = values[0];
             for(int i = 0; i < values.Length; i++)
-            {
                 for(int j = 0; j < values.Length; j++)
-                {
                     if (flag ? (values[j] > values[i]) : ((values[j] < values[i])))
                     {
                         buf = values[i];
@@ -19,8 +17,6 @@
                         values[j] = buf;
                         counter++;
                     }
-                }
-            }
             return values;
         }
     }
